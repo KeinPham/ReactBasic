@@ -1,0 +1,31 @@
+#Login {
+    text-align: center;
+    margin-top: 100px; 
+}
+#Btlogin {
+    text-decoration: none;
+    color: #111;
+}
+thead{
+    #titleTable{
+        border:3px solid #111; 
+        text-align:  center;
+        th{
+            border-right:2px solid #111;
+            padding:0 0 20px 0;
+            width: 1%;
+        }
+    }
+    #controlFilter{
+        border:3px solid #111;
+    }
+}
+tbody{
+    .Item{
+        border:3px solid #111;
+        td{
+            border-right:2px solid #111;
+            text-align: center;
+        }
+    }
+}

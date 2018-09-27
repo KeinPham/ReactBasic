@@ -29,7 +29,7 @@ class FilterX extends Component {
 class LogOut extends Component {
     LogOut(){
         localStorage.removeItem('token');
-        window.location.href = 'http://localhost:2003/';
+        window.location.href = 'http://localhost:3000/';
     };
     render(){
         return(

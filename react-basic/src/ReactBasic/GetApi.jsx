@@ -11,7 +11,9 @@ class GetApi extends Component {
         };
     }
     showDate = (date)=>{
-        return date
+        const newDate = date.split(" ")[0].split("-").reverse().join("-");
+        
+        return newDate
     }
     showStatus = (valueState) => {
 		var result = '';
@@ -87,7 +89,6 @@ class GetApi extends Component {
             <div>
             <LogOut/>
             <FilterX/>
-            <button onClick={this.showDate}>Click</button>
             <table className='table'>
                 <thead>
                     <tr id="titleTable">
