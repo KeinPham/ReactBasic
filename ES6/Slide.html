@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Slide</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Slide.css">
+    <style>
+        #button {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img class="slide" src="" alt="" style="width:100%">
+                <div id="button">
+                    <button type="button" class="btn btn-success" value="Next" onclick="bntSlider(this)">Next</button>
+                    <button type="button" class="btn btn-danger" value="Prev" onclick="bntSlider(this)">Prev</button>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div id="loader">
+                </div>
+                  <div id="main">
+                        <img class="slide" src="" alt="" style="width:100%">
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript' src='./bootstrap-3.3.7/js/jquery3.3.1.min.js'></script>
+    <script type='text/javascript' src='./bootstrap-3.3.7/js/bootstrap.min.js'></script>
+    <script type='text/javascript' src='./Slide.js'></script>
+</body>
+</html>
